@@ -109,9 +109,41 @@ body {
     height: 100%;
 }
 
+header,
+footer,
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+}
+
+header {
+    color: #FFFFFF;
+    line-height: 1.5em;
+    font-size: 3em;
+    height: auto;
+    width: 30%;
+    overflow: auto;
+    text-align: center;  
+}
+
+main {
+    color: #FFFFFF;
+    line-height: 1.5em;
+    font-size: 2em;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-between;
     font-weight: 700;
 }
@@ -125,7 +157,6 @@ body {
 .div-1,
 .div-2,
 .div-3 {
-    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +168,15 @@ body {
     overflow: auto;
     text-align: center;
 }
-
+ footer {
+    color: #FFFFFF;
+    line-height: 1.5em;
+    font-size: 1em;
+    height: auto;
+    width: 30%;
+    overflow: auto;
+    text-align: center; 
+ }
 
 
 
