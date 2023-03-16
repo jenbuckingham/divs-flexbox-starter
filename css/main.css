@@ -113,6 +113,7 @@ body {
 
 .flex-container {
     display: flex;
+
     flex-flow: row wrap;
     justify-content: space-between;
     max-width: 1200px;
@@ -141,11 +142,13 @@ main {
     border-bottom: 1px solid #fff;
 }
 
+<<<<<<< HEAD
 main p {
     font-size: 1.35em;
   }  
 
   .flex-items {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +175,7 @@ main p {
     overflow: auto;
     text-align: center;
 }
+<<<<<<< HEAD
 
 footer {
   border-top: 1px solid #fff;
@@ -191,6 +195,17 @@ footer ul li {
     background: #222;
     color: white;
 }
+=======
+ footer {
+    color: #FFFFFF;
+    line-height: 1.5em;
+    font-size: 1em;
+    height: auto;
+    width: 30%;
+    overflow: auto;
+    text-align: center; 
+ }
+>>>>>>> remotes/origin/main
 
 
 
