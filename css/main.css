@@ -113,7 +113,6 @@ body {
 
 .flex-container {
     display: flex;
-
     flex-flow: row wrap;
     justify-content: space-between;
     max-width: 1200px;
@@ -135,20 +134,19 @@ header h1 {
     font-size: 3em;
   }
 
-main {
+section {
     width: 100%;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #fff;
 }
 
-<<<<<<< HEAD
-main p {
+section h2 {
     font-size: 1.35em;
+    text-align: center;
   }  
 
   .flex-items {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,8 +155,7 @@ main p {
     border-bottom: 1px solid #555;
   }
 
-#div-2,
-#div-3 {
+.border {
     border-left: 1px solid #FFFFFF;
     padding-left: .7em;
 }
@@ -169,13 +166,10 @@ main p {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: auto;
     width: 30%;
     overflow: auto;
     text-align: center;
 }
-<<<<<<< HEAD
 
 footer {
   border-top: 1px solid #fff;
@@ -195,19 +189,6 @@ footer ul li {
     background: #222;
     color: white;
 }
-=======
- footer {
-    color: #FFFFFF;
-    line-height: 1.5em;
-    font-size: 1em;
-    height: auto;
-    width: 30%;
-    overflow: auto;
-    text-align: center; 
- }
->>>>>>> remotes/origin/main
-
-
 
 /* ==========================================================================
    Helper classes
